@@ -126,7 +126,7 @@ public class HiveConnection implements java.sql.Connection {
   private TProtocolVersion protocol;
 
   public HiveConnection(String uri, Properties info) throws SQLException {
-    setupLoginTimeout();
+    //setupLoginTimeout();
     jdbcURI = uri;
     // parse the connection uri
     Utils.JdbcConnectionParams connParams;
